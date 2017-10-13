@@ -249,5 +249,18 @@ namespace VI_PATH
             }
             #endregion
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            foreach (Form form in Application.OpenForms)
+            {
+                if (form.Name == "MainMenu")
+                {
+                    form.Show();
+                }
+            }
+            this.Close();
+        }
     }
 }

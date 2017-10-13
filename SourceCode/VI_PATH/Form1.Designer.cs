@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Feld)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,11 +119,22 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(12, 407);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(92, 27);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "back";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 446);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -131,7 +143,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Feld);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Dijkstra";
             ((System.ComponentModel.ISupportInitialize)(this.Feld)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -148,6 +160,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button6;
     }
 }
 

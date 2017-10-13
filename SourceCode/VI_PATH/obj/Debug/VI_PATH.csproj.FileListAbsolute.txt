@@ -6,3 +6,4 @@ H:\Programmer\VisualStudioprojekts\VI_PATH\VI_PATH\obj\Debug\VI_PATH.Properties.
 H:\Programmer\VisualStudioprojekts\VI_PATH\VI_PATH\obj\Debug\VI_PATH.csproj.GenerateResource.Cache
 H:\Programmer\VisualStudioprojekts\VI_PATH\VI_PATH\obj\Debug\VI_PATH.exe
 H:\Programmer\VisualStudioprojekts\VI_PATH\VI_PATH\obj\Debug\VI_PATH.pdb
+H:\Programmer\VisualStudioprojekts\VI_PATH\VI_PATH\obj\Debug\VI_PATH.MainMenu.resources
