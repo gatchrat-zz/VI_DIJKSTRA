@@ -1,10 +1,6 @@
-# HowManyLinks
 
-A simple tool which visualises different pathfinding methods.
+A simple tool which visualises  pathfinding using the  Dijkstra - Algorithm.
 
-## Available Methods
-
-* Dijkstra
 
 
 
