@@ -15,7 +15,7 @@ namespace VI_PATH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenu());
+            Application.Run(new Form1());
         }
     }
 }
